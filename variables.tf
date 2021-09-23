@@ -26,7 +26,7 @@ variable "ec2_ingress_allowed_ip" {
 
 variable "db_config" {
   default = {
-    "username" = "foo"
-    "password" = "foobarbaz"
+    username = "foo"
+    password = "foobarbaz"
   }
 }
